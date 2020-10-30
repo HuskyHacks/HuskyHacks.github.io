@@ -12,7 +12,7 @@ You want to be the greatest bug bounty hunter on Earth, do ya? Well, I would say
 
 I ask that you bring two things to this course:
 
-1. A **fresh install** of the latest build of Kali Linux, available here: [https://www.kali.org/downloads/]
+1. A **fresh install** of the latest build of Kali Linux, available here: https://www.kali.org/downloads/
 
 2. Yourself, caffeinated if you so choose, enthused, and ready to learn!
 
