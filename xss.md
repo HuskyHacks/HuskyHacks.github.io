@@ -1,5 +1,5 @@
-#Cross Site Scripting (XSS)
-##The Problem
+# Cross Site Scripting (XSS)
+## The Problem
 Let's think for a moment: what are websites really made out of?
 
 A website cannot be understood and displayed by a computer unless it is written in a very specific manner. You are probably familiar with **Hypertext Markup Language (HTML)** if you've spent some time on the internet. This is the classic markup language meant to make plain text files into things that can be displayed by a web server. **HTML** is responsible for most (but not all) web based things that you've ever seen in a web browser!
@@ -19,14 +19,14 @@ Ladies and gentlemen, you have Cross Site Scripting: an exploit of **client-side
 
 If a website accepts input from clients and  **does not validate and sanitize its input**, it may be vulnerable to Cross Site Scripting. Speaking simply, the website must be coded to accept input and **treat it as plain text, not HTML** to avoid this problem.
 
-##The Types
+## The Types
 There are three types of XSS:
 - Reflected XSS: XSS that returns user input 
 - Stored XSS: Think of this as XSS that is added to the actual code on the server. This means that anyone who visits a particular page with this kind of XSS will be exploited by it, and it will remain on the server until someone does something about it. Scary stuff.
 - DOM Based XSS
 
 
-##The Damage
+## The Damage
 XSS is not just a matter of popping up an alert on a website. An atacker can do serious damage if a webpage is vulnerable to XSS.
 
 Consider the following example of an XSS payload:
