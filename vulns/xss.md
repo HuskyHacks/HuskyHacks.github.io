@@ -1,6 +1,7 @@
 # Cross Site Scripting (XSS)
 
 ## Video
+[![Cross-Site Scripting (XSS) | HuskyHacks | HackerOne Veterans in Security Community Day](http://img.youtube.com/vi/XyewwMbV9OA/0.jpg)](http://www.youtube.com/watch?v=XyewwMbV9OA "Cross-Site Scripting (XSS) | HuskyHacks | HackerOne Veterans in Security Community Day")
 
 
 ## The Problem
