@@ -3,23 +3,12 @@ An OWASP Top 10 Obstacle Course for Beginners by Matt Kiely (HuskyHacks)
 
 #### Table of Contents  
 - [Introduction](/index.md) 
-  - [Ten hut!](#Ten-hut!)
+  - [Ten hut!](#ten-hut)
   - [Requirements](#Requirements) 
   - [Objectives](#Objectives)  
-  - [Lab Environment Setup](#Lab Environment Setup)
-- [Tools](/tools/)
-- [Vulns](/vulns/)
-
-
-- [Heading](#heading)
-  * [Sub-heading](#sub-heading)
-    + [Sub-sub-heading](#sub-sub-heading)
-- [Heading](#heading-1)
-  * [Sub-heading](#sub-heading-1)
-    + [Sub-sub-heading](#sub-sub-heading-1)
-- [Heading](#heading-2)
-  * [Sub-heading](#sub-heading-2)
-    + [Sub-sub-heading](#sub-sub-heading-2)
+  - [Lab Environment Setup](#Lab-Environment-Setup)
+- [Tools](/tools/index.md)
+- [Vulns](/vulns/index.md)
 
 <!-- toc -->
 
