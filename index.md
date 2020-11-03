@@ -1,19 +1,30 @@
 # The O-Course
 An OWASP Top 10 Obstacle Course for Beginners by Matt Kiely (HuskyHacks)
 
-![HuskyHacks](img/logo.png)
-
-## Table of Contents  
-- [Introduction](#headers)  
-  - [Ten, hut!](#Ten,hut!)
+#### Table of Contents  
+- [Introduction](/index.md) 
+  - [Ten hut!](#Ten-hut!)
   - [Requirements](#Requirements) 
   - [Objectives](#Objectives)  
   - [Lab Environment Setup](#Lab Environment Setup)
-- [Tools](#/tools/)
-- [Vulns](#/tools/)
+- [Tools](/tools/)
+- [Vulns](/vulns/)
 
 
-## Ten, hut!
+- [Heading](#heading)
+  * [Sub-heading](#sub-heading)
+    + [Sub-sub-heading](#sub-sub-heading)
+- [Heading](#heading-1)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
+
+<!-- toc -->
+
+
+## Ten hut!
 
 Alright, recruits! Welcome to the O-Course. Glad to have you.
 
