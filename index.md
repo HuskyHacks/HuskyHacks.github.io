@@ -3,16 +3,17 @@ An OWASP Top 10 Obstacle Course for Beginners by Matt Kiely (HuskyHacks)
 
 #### Table of Contents  
 - [Introduction](/index.md) 
-  - [Ten hut!](#ten-hut)
-  - [Requirements](#Requirements) 
-  - [Objectives](#Objectives)  
-  - [Lab Environment Setup](#Lab-Environment-Setup)
+  - [Ten hut!](/index.md#ten-hut)
+  - [Requirements](/index.md#requirements) 
+  - [Objectives](/index.md#objectives)  
+  - [Lab Environment Setup](/index.md#lab-environment-setup)
 - [Tools](/tools/)
 - [Vulns](/vulns/)
   - [Cross Site Scripting (XSS)](/vulns/xss.md)
   - [Structured Query Language Injection (SQLi)](/vulns/sqli.md)
   - [API Bruteforce and Information Disclosure](/vulns/api.md)
   - [eXternal XML Entity (XXE) Injection](/vulns/xxe.md)
+  
   <!-- toc -->
 
 
