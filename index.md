@@ -9,10 +9,10 @@ An OWASP Top 10 Obstacle Course for Beginners by Matt Kiely (HuskyHacks)
   - [Lab Environment Setup](#lab-environment-setup)
 - [Tools](/tools/)
 - [Vulns](/vulns/)
-  - [Cross Site Scripting (XSS)](/vulns/xss.md)
-  - [Structured Query Language Injection (SQLi)](/vulns/sqli.md)
-  - [API Bruteforce and Information Disclosure](/vulns/api.md)
-  - [eXternal XML Entity (XXE) Injection](/vulns/xxe.md)
+  - [Cross Site Scripting (XSS)](/vulns/xss)
+  - [Structured Query Language Injection (SQLi)](/vulns/sqli)
+  - [API Bruteforce and Information Disclosure](/vulns/api)
+  - [eXternal XML Entity (XXE) Injection](/vulns/xxe)
   
   <!-- toc -->
 
