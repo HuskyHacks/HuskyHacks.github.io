@@ -1,6 +1,6 @@
 # Cross Site Scripting (XSS)
 
-##Video
+## Video
 
 
 ## The Problem
@@ -125,9 +125,9 @@ The URL will automatically render the URL encoded characters when the form is su
 
 ## The Types
 There are three types of XSS:
-- Reflected XSS: XSS that returns user input 
-- Stored XSS: Think of this as XSS that is added to the actual code on the server. This means that anyone who visits a particular page with this kind of XSS will be exploited by it, and it will remain on the server until someone does something about it. Scary stuff.
-- DOM Based XSS
+- Reflected XSS: a user action adds some kind of HTML or Javascript to the website page, then the input is evaluated by the server, and is processed as if it were in the client's own web browser. This type usually does not stay on the system after it is exploited.
+- Stored XSS: Think of this as XSS that is added to the actual code on the server. For example, let's say there is a message forum that accepts a user's input as a comment on the message board. If this form is vulnerable to XSS, the malicious code will be posted to the forum itself rather than kept in the client's web browser. This means that anyone who visits a particular page with this kind of XSS will be exploited by it, and it will remain on the server until someone does something about it. Scary stuff.
+- Document Object Model based XSS: XSS that occurs completely within a page's Document Object Model (DOM). The DOM is the client-side workspace where the web browser can interpret languages like Javascript. DOM XSS is commonly found when a page uses a Javascript function that appears in the URL and can be edited by the client.
 
 
 ## The Damage
