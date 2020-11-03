@@ -9,6 +9,7 @@ An OWASP Top 10 Obstacle Course for Beginners by Matt Kiely (HuskyHacks)
   - [Lab Environment Setup](#Lab-Environment-Setup)
 - [Tools](/tools/index.md)
 - [Vulns](/vulns/index.md)
+  - [Cross Site Scripting (XSS)](/vulns/xss.md)
 
 <!-- toc -->
 
