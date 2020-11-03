@@ -1,4 +1,19 @@
-# Ten, hut!
+# The O-Course
+An OWASP Top 10 Obstacle Course for Beginners by Matt Kiely (HuskyHacks)
+
+![HuskyHacks](img/logo.png)
+
+## Table of Contents  
+- [Introduction](#headers)  
+  - [Ten, hut!](#Ten,hut!)
+  - [Requirements](#Requirements) 
+  - [Objectives](#Objectives)  
+  - [Lab Environment Setup](#Lab Environment Setup)
+- [Tools](#/tools/)
+- [Vulns](#/tools/)
+
+
+## Ten, hut!
 
 Alright, recruits! Welcome to the O-Course. Glad to have you.
 
@@ -12,16 +27,15 @@ You want to be the greatest bug bounty hunter on Earth, do ya? Well, I would say
 
 I ask that you bring two things to this course:
 
-1. A **fresh install** of the latest build of Kali Linux, available here: https://www.kali.org/downloads/
-
-2. Yourself, caffeinated if you so choose, enthused, and ready to learn!
+- Yourself, ready to learn, and
+- A **fresh install of the latest build of Kali Linux**
 
 ### Objectives
 
 When you leave this course, I’m hoping you’ll be able to do these things (in the biz, we call these “Learning Objectives):
 
 - Identify, understand, and exploit **Cross Site Scripting (XSS)**
--	Identify a SQL Injection point, perform **manual SQL injection**, and use SQLMap to gain unauthorized access to a backend database.
+-	Identify a SQL Injection point, perform **manual and autopmated SQL injection**, to gain unauthorized access to a backend database.
 -	Identify and exploit an **XML External Entity vulnerability** to gain access to a web server’s file system.
 -	**Bruteforce an API** and use it to gain access to information.
 -	Use tools like **Burp suite, dirbuster, SQLMap, XXS Strike, Nmap**, and others and begin to gain mastery with them.
@@ -31,11 +45,12 @@ When you leave this course, I’m hoping you’ll be able to do these things (in
 
 Well, if we're gonna be hacking and learning, we definitely need something to hack and learn about, right? Don't worry, I have you covered. This course comes complete with an entire web application, front-end and back-end, that is created locally just for you!
 
-1. In your fresh install of Kali Linux, right-click on the Desktop and select "Open Terminal Here"
-2. In the command prompt, enter the following:
-`cd /opt && sudo git clone https://github.com/HuskyHacks/O-Course`
-3. When that has finished, in the command prompt, enter the following:
-`sudo chmod 755 -R /opt/O-Course && cd O-Course && sudo python3 install.py`
-4. The install script will run. Follow the prompts on screen to download and launch your lab!
+In your fresh install of Kali Linux:
 
-##
+1. Right-click on the Desktop and select "Open Terminal Here"
+2. In the command prompt, enter the following: `cd /opt && sudo git clone https://github.com/HuskyHacks/O-Course`
+3. When that has finished, in the command prompt, enter the following: `sudo chmod 755 -R /opt/O-Course && cd O-Course && sudo python3 install.py`
+4. Follow the script's prompts (hit enter a few times) until it is done. The final part of the script launches the docker web app.
+5. Browse to `172.17.0.1` to launch the course!
+
+## 
