@@ -1,7 +1,7 @@
 # The O-Course
 An OWASP Top 10 Obstacle Course for Beginners by Matt Kiely (HuskyHacks)
 
-#### Table of Contents  
+#### Table of Contents
 - [Introduction](../index.md) 
   - [Ten hut!](../index.md#ten-hut)
   - [Requirements](../index.md#requirements) 
@@ -13,5 +13,6 @@ An OWASP Top 10 Obstacle Course for Beginners by Matt Kiely (HuskyHacks)
   - [Structured Query Language Injection (SQLi)](/vulns/sqli.md)
   - [API Bruteforce and Information Disclosure](/vulns/api.md)
   - [eXternal XML Entity (XXE) Injection](/vulns/xxe.md)
-  
+
   <!-- toc -->
+  
