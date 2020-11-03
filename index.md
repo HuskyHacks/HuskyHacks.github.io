@@ -10,8 +10,10 @@ An OWASP Top 10 Obstacle Course for Beginners by Matt Kiely (HuskyHacks)
 - [Tools](/tools/index.md)
 - [Vulns](/vulns/index.md)
   - [Cross Site Scripting (XSS)](/vulns/xss.md)
-
-<!-- toc -->
+  - [Structured Query Language Injection (SQLi)](/vulns/sqli.md)
+  - [API Bruteforce and Information Disclosure](/vulns/api.md)
+  - [eXternal XML Entity (XXE) Injection](/vulns/xxe.md)
+  <!-- toc -->
 
 
 ## Ten hut!
