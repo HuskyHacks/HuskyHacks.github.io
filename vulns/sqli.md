@@ -1,7 +1,7 @@
 # Structured Query Language Injection (SQLi)
 
 ##Video
--video-
+
 
 ## The Problem
 

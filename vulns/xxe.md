@@ -1,7 +1,7 @@
 # eXternal XML Entity (XXE) Injection
 
 ##Video
--video-
+
 
 ## The Problem
 

@@ -1,7 +1,7 @@
 # Application Programming Interface (API) Bruteforce and Information Disclosure
 
 ##Video
--video-
+
 
 ## The Problem
 

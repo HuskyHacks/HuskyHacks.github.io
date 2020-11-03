@@ -2,7 +2,7 @@
 An OWASP Top 10 Obstacle Course for Beginners by Matt Kiely (HuskyHacks)
 
 #### Table of Contents  
-- [Introduction](/index.md) 
+- [Introduction](/) 
   - [Ten hut!](/index.md#ten-hut)
   - [Requirements](/index.md#requirements) 
   - [Objectives](/index.md#objectives)  
