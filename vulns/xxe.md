@@ -85,7 +85,7 @@ Nothing to worry about yet, right? Well, the real problem is that _external XML 
 
 How? Because you can point the entitiy to look at and read out the contents of a local file on the webserver. This is similar to Local File Inclusion (FLI) in that you, the user of a website, can get a web part to spit out the contents of a file on a server that you shouldn't have access to.
 
-###Example
+### Example
 ````xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE foo [
