@@ -1,7 +1,7 @@
 # Application Programming Interface (API) Bruteforce and Information Disclosure
 
 ## Video
-
+[![API Bruteforce | HuskyHacks | HackerOne Veterans in Security Community Day](http://img.youtube.com/vi/ShFalzCf8PQ/0.jpg)](http://www.youtube.com/watch?v=ShFalzCf8PQ "API Bruteforce | HuskyHacks | HackerOne Veterans in Security Community Day")
 
 ## The Problem
 This is an interesting one because, by and of itself, this is not necessarily a vulnerability in the same way that Cross-site Scripting and SQL Injection are vulnerabilities. Really, this is just a matter of using something for its intended purpose that maybe shouldn't be there in the first place.
