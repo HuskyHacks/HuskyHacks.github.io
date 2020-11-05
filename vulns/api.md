@@ -8,7 +8,7 @@ This is an interesting one because, by and of itself, this is not necessarily a 
 
 Application Programming Interfaces (APIs) are meant to make life easier. So what's the big problem?
 
-APIs are the access points of larger, more complex functions that are happening behind the scenes on a website. They are publically exposed and offer an access point based on a request-response system. Depending on what the API is actually designed to do, they can be absolute goldmines of information. 
+APIs are the access points of larger, more complex functions that are happening behind the scenes on a website. They are publicly exposed and offer an access point based on a request-response system. Depending on what the API is actually designed to do, they can be absolute goldmines of information. 
 
 I used one recently that illustrates how APIs can be useful: I sent the entire works of William Shakespeare into a language analysis API to get the sentiment of Shakespeare's works (https://huskyhacks.dev/2020/04/28/shake-down/). I scripted something to make a web request to a website that had a language sentiment analysis function on the back end and it did all the heavy lifting for me. 
 
@@ -29,6 +29,7 @@ It is hard to describe exact step-by-step of how to exploit this kind of vulnera
 2. When you have located an API endpoint, try to identify if there is any documentation available for it. Maybe this API is meant to be accessed regularly, and documentation is easily available. Maybe this is an older, forgotten API that still functions. This second class of APIs has very high potential for information disclosure.
 3. Start by interacting with the API. Make `GET` and `POST` requests to the access point with `curl` or the Burp Repeater. Examine how the API responds to certain requests. The errors from ineracting with the API may give away clues as to how it fuctions and what you need to do.
 i.e.`curl http://site.local/api/v1/account/` to perform a basic`GET` request without parameters and `curl -X POST http://site.local/api/v1/account/` to make a `POST` request without parameters.
+4. Remember, you're trying to figure out "What can I make this do?" not "What does this do?" Does the API need parameters passed to it? Try changing the values around and feed it something it might not expect.
 
 ## The Damage
 I'd say it's unlikely, but not impossible, to get any kind of remote code execution off of a basic API. But, because these things are so varied, you never know.
