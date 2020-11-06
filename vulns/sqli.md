@@ -1,7 +1,7 @@
 # Structured Query Language Injection (SQLi)
 
 ##Video
-
+[![Structured Query Language Injection | HuskyHacks | HackerOne Veterans in Security Community Day](http://img.youtube.com/vi/ViR5z82b2Po/0.jpg)](http://www.youtube.com/watch?v=ViR5z82b2Po "Structured Query Language Injection | HuskyHacks | HackerOne Veterans in Security Community Day")
 
 ## The Problem
 SQL injection was, without a doubt, the first web attack I saw and thought "Ok, I get it now."
