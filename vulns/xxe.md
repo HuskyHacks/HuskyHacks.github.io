@@ -1,14 +1,14 @@
 # eXternal XML Entity (XXE) Injection
 
-##Video
-
+## Video
+[![External XML Entity Injection (XXE) | HuskyHacks | HackerOne Veterans in Security Community Day](http://img.youtube.com/vi/M68lwcC18kU/0.jpg)](http://www.youtube.com/watch?v=M68lwcC18kU "External XML Entity Injection (XXE) | HuskyHacks | HackerOne Veterans in Security Community Day")
 
 ## The Problem
 XXE is interesting, to say the least.
 
 First, we need to understand the second 'X' in XXE, which stands for Extensible Markup Language (XML). I do love those recursive acronyms.
 
-XML is a markup language, much like its popular and high-achieving cousin HTML. In fact, the two even look pretty similar if you compare them side by side:
+XML is a markup language, much like its more popular and high-achieving cousin HTML. In fact, the two even look pretty similar if you compare them side by side:
 
 ````xml
 <note>
@@ -83,7 +83,7 @@ Once defined, the entity can live inside of an XML tag. The `site` entity now li
 
 Nothing to worry about yet, right? Well, the real problem is that _external XML entities can be used to read files that are local to the webserver_ -facepalm-
 
-How? Because you can point the entitiy to look at and read out the contents of a local file on the webserver. This is similar to Local File Inclusion (FLI) in that you, the user of a website, can get a web part to spit out the contents of a file on a server that you shouldn't have access to.
+How? Because you can point the entitiy to look at and read out the contents of a local file on the webserver. This is similar to Local File Inclusion (LFI) in that you, the user of a website, can get a web part to spit out the contents of a file on a server that you shouldn't have access to.
 
 ### Example
 ````xml
