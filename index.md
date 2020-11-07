@@ -41,7 +41,7 @@ I ask that you bring two things to this course:
 When you leave this course, I’m hoping you’ll be able to do these things (in the biz, we call these “Learning Objectives):
 
 - Identify, understand, and exploit **Cross Site Scripting (XSS)**
--	Identify a SQL Injection point, perform **manual and autopmated SQL injection**, to gain unauthorized access to a backend database.
+-	Identify a SQL Injection point, perform **manual and automated SQL injection**, to gain unauthorized access to a backend database.
 -	Identify and exploit an **XML External Entity vulnerability** to gain access to a web server’s file system.
 -	**Bruteforce an API** and use it to gain access to information.
 -	Use tools like **Burp suite, dirbuster, SQLMap**, and others and begin to gain mastery with them.
