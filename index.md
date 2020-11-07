@@ -58,5 +58,3 @@ In your fresh install of Kali Linux:
 3. When that has finished, in the command prompt, enter the following: `sudo chmod 755 -R /opt/O-Course && cd O-Course && sudo python3 install.py`
 4. Follow the script's prompts (hit enter a few times) until it is done. The final part of the script launches the docker web app.
 5. Browse to `172.17.0.1` to launch the course!
-
-## 
