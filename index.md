@@ -7,10 +7,10 @@ An OWASP Top 10 Obstacle Course for Beginners by Matt Kiely (HuskyHacks)
   - [Requirements](#requirements) 
   - [Objectives](#objectives)  
   - [Lab Environment Setup](#lab-environment-setup)
-- [Tools](/tools/)
+- Tools
   - [FoxyProxy and Burpsuite](/tools/burpsuite)
   - [SQLmap](/tools/sqlmap)
-- [Vulns](/vulns/)
+- Vulns
   - [Cross Site Scripting (XSS)](/vulns/xss)
   - [Structured Query Language Injection (SQLi)](/vulns/sqli)
   - [API Bruteforce and Information Disclosure](/vulns/api)
