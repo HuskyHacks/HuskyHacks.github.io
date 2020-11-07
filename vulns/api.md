@@ -1,5 +1,18 @@
 # Application Programming Interface (API) Bruteforce and Information Disclosure
 
+- [Introduction](../index.md) 
+  - [Ten hut!](../index.md#ten-hut)
+  - [Requirements](../index.md#requirements) 
+  - [Objectives](../index.md#objectives)  
+  - [Lab Environment Setup](../index.md#lab-environment-setup)
+- Tools
+  - [FoxyProxy and Burpsuite](/tools/burpsuite)
+  - [SQLmap](/tools/sqlmap)
+- Vulns
+  - [Cross Site Scripting (XSS)](/vulns/xss)
+  - [Structured Query Language Injection (SQLi)](/vulns/sqli)
+  - [API Bruteforce and Information Disclosure](/vulns/api)
+  - [eXternal XML Entity (XXE) Injection](/vulns/xxe)
 ## Video
 [![API Bruteforce | HuskyHacks | HackerOne Veterans in Security Community Day](http://img.youtube.com/vi/ShFalzCf8PQ/0.jpg)](http://www.youtube.com/watch?v=ShFalzCf8PQ "API Bruteforce | HuskyHacks | HackerOne Veterans in Security Community Day")
 
