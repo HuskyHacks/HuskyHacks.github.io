@@ -1,17 +1,34 @@
 # Structured Query Language Injection (SQLi)
+
+#### Table of Contents  
 - [Introduction](../index.md) 
-  - [Ten hut!](../index.md#ten-hut)## Video
-  - [Requirements](../index.md#requirements) [![Structured Query Language Injection | HuskyHacks | HackerOne Veterans in Security Community Day](http://img.youtube.com/vi/ViR5z82b2Po/0.jpg)](http://www.youtube.com/watch?v=ViR5z82b2Po "Structured Query Language Injection | HuskyHacks | HackerOne Veterans in Security Community Day")
+  - [Ten hut!](../index.md#ten-hut)
+  - [Requirements](../index.md#requirements) 
   - [Objectives](../index.md#objectives)  
-  - [Lab Environment Setup](../index.md#lab-environment-setup)## The Problem
-- ToolsSQL injection was, without a doubt, the first web attack I saw and thought "Ok, I get it now."
+  - [Lab Environment Setup](../index.md#lab-environment-setup)
+- Tools
   - [FoxyProxy and Burpsuite](/tools/burpsuite)
-  - [SQLmap](/tools/sqlmap)SQL injection is a perfect summary of why web applications are always going to be vulnerable. Its principle thesis is that when you put complex systems together and try to make them work in concert, sometimes there are unintended problems.
+  - [SQLmap](/tools/sqlmap)
 - Vulns
-  - [Cross Site Scripting (XSS)](/vulns/xss)Structured Query Language is a family of different database syntax. It is the primary means by which someone will interact wiht a back-end database, much like HTML is the primary language that someone will use to build a website.
+  - [Cross Site Scripting (XSS)](/vulns/xss)
   - [Structured Query Language Injection (SQLi)](/vulns/sqli)
-  - [API Bruteforce and Information Disclosure](/vulns/api)SQL, in my opinion, has one of the most straightforward language structures in the entire field.
-  - [eXternal XML Entity (XXE) Injection](/vulns/xxe) 
+  - [API Bruteforce and Information Disclosure](/vulns/api)
+  - [eXternal XML Entity (XXE) Injection](/vulns/xxe)
+  
+  <!-- toc -->
+  
+## Video
+[![Structured Query Language Injection | HuskyHacks | HackerOne Veterans in Security Community Day](http://img.youtube.com/vi/ViR5z82b2Po/0.jpg)](http://www.youtube.com/watch?v=ViR5z82b2Po "Structured Query Language Injection | HuskyHacks | HackerOne Veterans in Security Community Day")
+
+## The Problem
+SQL injection was, without a doubt, the first web attack I saw and thought "Ok, I get it now."
+
+SQL injection is a perfect summary of why web applications are always going to be vulnerable. Its principle thesis is that when you put complex systems together and try to make them work in concert, sometimes there are unintended problems.
+
+Structured Query Language is a family of different database syntax. It is the primary means by which someone will interact wiht a back-end database, much like HTML is the primary language that someone will use to build a website.
+
+SQL, in my opinion, has one of the most straightforward language structures in the entire field.
+ 
  If you have a database table called "Student" and you want to select all of the records in the table called "Student" where the name is "Matt", the syntax is
  ````sql
 SELECT * FROM Student WHERE NAME = 'Matt'

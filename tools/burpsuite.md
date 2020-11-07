@@ -1,5 +1,5 @@
 # FoxyProxy and Burpsuite
-
+#### Table of Contents  
 - [Introduction](../index.md) 
   - [Ten hut!](../index.md#ten-hut)
   - [Requirements](../index.md#requirements) 
@@ -13,6 +13,8 @@
   - [Structured Query Language Injection (SQLi)](/vulns/sqli)
   - [API Bruteforce and Information Disclosure](/vulns/api)
   - [eXternal XML Entity (XXE) Injection](/vulns/xxe)
+  
+  <!-- toc -->
 ## Video
 [![FoxyProxy and Burpsuite | HuskyHacks | HackerOne Veterans in Security Community Day](http://img.youtube.com/vi/fNmM7m08_ys/0.jpg)](http://www.youtube.com/watch?v=fNmM7m08_ys "FoxyProxy and Burpsuite | HuskyHacks | HackerOne Veterans in Security Community Day")
 

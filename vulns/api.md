@@ -1,5 +1,5 @@
 # Application Programming Interface (API) Bruteforce and Information Disclosure
-
+#### Table of Contents  
 - [Introduction](../index.md) 
   - [Ten hut!](../index.md#ten-hut)
   - [Requirements](../index.md#requirements) 
@@ -13,6 +13,8 @@
   - [Structured Query Language Injection (SQLi)](/vulns/sqli)
   - [API Bruteforce and Information Disclosure](/vulns/api)
   - [eXternal XML Entity (XXE) Injection](/vulns/xxe)
+  
+  <!-- toc -->
 ## Video
 [![API Bruteforce | HuskyHacks | HackerOne Veterans in Security Community Day](http://img.youtube.com/vi/ShFalzCf8PQ/0.jpg)](http://www.youtube.com/watch?v=ShFalzCf8PQ "API Bruteforce | HuskyHacks | HackerOne Veterans in Security Community Day")
 

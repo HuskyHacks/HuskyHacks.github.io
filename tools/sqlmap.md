@@ -1,6 +1,5 @@
-
-
 # SQLmap
+#### Table of Contents  
 - [Introduction](../index.md) 
   - [Ten hut!](../index.md#ten-hut)
   - [Requirements](../index.md#requirements) 
@@ -14,6 +13,8 @@
   - [Structured Query Language Injection (SQLi)](/vulns/sqli)
   - [API Bruteforce and Information Disclosure](/vulns/api)
   - [eXternal XML Entity (XXE) Injection](/vulns/xxe)
+  
+  <!-- toc -->
 ## Video
 [![SQLmap | HuskyHacks | HackerOne Veterans in Security Community Day](http://img.youtube.com/vi/Tb41YHk7CuU/0.jpg)](http://www.youtube.com/watch?v=Tb41YHk7CuU "SQLmap | HuskyHacks | HackerOne Veterans in Security Community Day")
 

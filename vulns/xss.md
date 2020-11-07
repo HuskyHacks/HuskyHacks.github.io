@@ -1,4 +1,5 @@
 # Cross Site Scripting (XSS)
+#### Table of Contents  
 - [Introduction](../index.md) 
   - [Ten hut!](../index.md#ten-hut)
   - [Requirements](../index.md#requirements) 
@@ -12,6 +13,9 @@
   - [Structured Query Language Injection (SQLi)](/vulns/sqli)
   - [API Bruteforce and Information Disclosure](/vulns/api)
   - [eXternal XML Entity (XXE) Injection](/vulns/xxe)
+  
+  <!-- toc -->
+  
 ## Video
 [![Cross-Site Scripting (XSS) | HuskyHacks | HackerOne Veterans in Security Community Day](http://img.youtube.com/vi/XyewwMbV9OA/0.jpg)](http://www.youtube.com/watch?v=XyewwMbV9OA "Cross-Site Scripting (XSS) | HuskyHacks | HackerOne Veterans in Security Community Day")
 
