@@ -42,7 +42,7 @@ When you leave this course, I’m hoping you’ll be able to do these things (in
 -	Identify a SQL Injection point, perform **manual and autopmated SQL injection**, to gain unauthorized access to a backend database.
 -	Identify and exploit an **XML External Entity vulnerability** to gain access to a web server’s file system.
 -	**Bruteforce an API** and use it to gain access to information.
--	Use tools like **Burp suite, dirbuster, SQLMap, XXS Strike, Nmap**, and others and begin to gain mastery with them.
+-	Use tools like **Burp suite, dirbuster, SQLMap**, and others and begin to gain mastery with them.
 -	And, of course… **have fun and look cool while doing it**!
 
 ### Lab Environment Setup
