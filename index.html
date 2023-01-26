@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Two-player Connect Four</title>
+  <meta name="description" content="Play two-player Connect Four online. To win, be the first to form a horizontal, vertical, or diagonal line with four of your discs.">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <style id="a11y-styles"></style>
+</head>
+<body>
+  <div class="keyboard-friendly">
+    <img class="keyboard-friendly-img" src="img/arrow-keys.svg" />
+  </div>
+  <section class="wrapper">
+    <div class="center">
+      <h1 class="title">Connect Four</h1>
+      <div id="top-text" class="top-text">
+        <h2 class="primary">
+          <span id="prefix">Current player is: </span>
+          <span id="current-player" contenteditable="true">Player 1</span>
+        </h2>
+        <h3 class="secondary">
+          <span>Next up is: </span>
+          <span id="other-player" contenteditable="true">Player 2</span>
+        </h3>
+      </h2>
+      <div id="play-again" class="play-again">
+        <a href="#" class="play-again-btn" id="play-again-btn">Play Again</a>
+      </div>
+    </div>
+    <table id="board" class="board">
+      <tbody>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+      </tbody>
+    </table>
+    <a class="code" href="https://github.com/bryanbraun/connect-four">See the code</a>
+  </section>
+
+  <script src="js/vars.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/accessibility.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
