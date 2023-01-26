@@ -2,7 +2,6 @@
 <html>
 <head>
 <meta content='width=device-width,initial-scale=1.0,user-scalable=no' name='viewport'>
-<meta id="analytics-keys" name="analytics" data-analytics="{}" />
 <meta name="asset_host" content="https://fedora.teachablecdn.com">
 <title>The Taggart Institute</title>
 <link rel="shortcut icon" type="image/x-icon" href="https://file-uploads.teachablecdn.com/8854a98f9e204c40ad680eb7001175f1/48642f89e1a84bf88d87d9cb638fed9d" />
@@ -53,7 +52,7 @@
   font-style: italic;
   font-display: swap; }
 
-@font-face {
+font-face {
   font-family: &#39;Merriweather&#39;;
   src: url(&quot;//assets.teachablecdn.com/fonts/merriweather/Merriweather.eot&quot;);
   src: url(&quot;//assets.teachablecdn.com/fonts/merriweather/Merriweather.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;//assets.teachablecdn.com/fonts/merriweather/Merriweather.woff&quot;) format(&quot;woff&quot;), url(&quot;//assets.teachablecdn.com/fonts/merriweather/Merriweather.ttf&quot;) format(&quot;truetype&quot;);
@@ -98,7 +97,7 @@
 <main class="p-v-5-m">
 <div class="container m-auto-xs col-4-l col-5-m col-10-xs p-h-6-l">
 <h3 class="heading3 text-center-xs">Log in</h3>
-<form class="recaptcha-protected password-form" action="/secure/1083115/identity/login/password" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="g5bANSqeGZSlWCKeQg6JEJ1hpCyx4yy8TpdziOTHNoo+fhdHVa5lj8QKoB4WbeT1w+peufVhugZDw7+bmPaVcw==" />
+<form class="recaptcha-protected password-form" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="g5bANSqeGZSlWCKeQg6JEJ1hpCyx4yy8TpdziOTHNoo+fhdHVa5lj8QKoB4WbeT1w+peufVhugZDw7+bmPaVcw==" />
 <div class="m-b-4-xs">
 <label class="form-label bodyMain p-b-0-xs m-b-2-xs" for="email">Email</label>
 <input type="email" name="email" id="email" required="required" autocomplete="email" class="form-input p-v-1-xs p-l-2-xs p-r-4-xs col-12-xs bodyMain" />
@@ -123,7 +122,7 @@
 </div>
 </div>
 <div class="dsp-flex-xs flex-justify-content-center-xs">
-<input type="submit" name="commit" value="Log in" class="btn-primary button p-v-2-xs p-h-5-xs m-v-3-xs col-12-xs" data-testid="login-button" data-disable-with="Log in" />
+<input type="submit" name="commit" value="Log in" class="btn-primary button p-v-2-xs p-h-5-xs m-v-3-xs col-12-xs"/>
 </div>
 <div class="g-recaptcha-v3" data-action="login_check_password" data-sitekey-v3="6Le9jOUUAAAAAMKU_R7rTbi4JFAi6FXIhG5aBRHx"></div>
 </form>
@@ -141,7 +140,7 @@ Log in with Google
 </a> </div>
 <div class="dsp-flex-xs flex-justify-content-center-xs">
 <form class="col-12-xs" action="/secure/1083115/identity/login/oauth/teachable/start" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YWjEVGOFWcr7UHbws1QyFnsxa/n6Ieac4o2hLI+Lp1XcgBMmHLUl0ZoC9HDnN1/zJbqRbL6jcCbv2W0/87oErA==" />
-<button name="button" type="submit" class="button oauth-button col-12-xs m-b-6-xs dsp-flex-xs flex-align-items-center-xs flex-justify-content-center-xs" data-test-id="login-with-teachable">
+<button name="button" class="button oauth-button col-12-xs m-b-6-xs dsp-flex-xs flex-align-items-center-xs flex-justify-content-center-xs">
 <div class="col-3-xs dsp-flex-xs flex-align-items-center-xs flex-justify-content-center-xs">
 <img role="presentation" src="https://fedora.teachablecdn.com/assets/teachable-circle-green-8747bce39a92fe2e2e76faed853d5195d1104b65ca3835ddecb78dfb18336953.svg" />
 </div>
